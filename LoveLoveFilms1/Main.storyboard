@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Scene1-->
+        <scene sceneID="pbX-fB-Jsb">
+            <objects>
+                <viewController id="5On-lK-JMk" customClass="Scene1" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yDS-Vg-88l"/>
+                        <viewControllerLayoutGuide type="bottom" id="W6c-Fw-YRf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vKk-jO-ORK">
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aex-z6-MKA">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="900" height="800"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="900" height="800"/>
+                    <connections>
+                        <outlet property="videoView1" destination="Aex-z6-MKA" id="xSu-j6-m2d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="50t-cC-QeX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="540" y="-1296"/>
+        </scene>
+        <!--Scene 1-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="door-1" translatesAutoresizingMaskIntoConstraints="NO" id="k9P-65-unf">
+                                <rect key="frame" x="0.0" y="20" width="1024" height="699"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfq-xb-g94">
+                                <rect key="frame" x="0.0" y="35" width="600" height="516"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="5On-lK-JMk" kind="popoverPresentation" popoverAnchorView="Nfq-xb-g94" id="kex-oj-47i">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="k9P-65-unf" secondAttribute="trailing" id="Gnl-KM-bqW"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="k9P-65-unf" secondAttribute="bottom" id="SQx-Mo-fRa"/>
+                            <constraint firstItem="k9P-65-unf" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="lt4-y2-51Z"/>
+                            <constraint firstItem="k9P-65-unf" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="tSe-r3-lFu"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene 1" image="clipboard" selectedImage="clipboard" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456" y="-410"/>
+        </scene>
+        <!--Scene3Popover3-->
+        <scene sceneID="v5D-FB-VDE">
+            <objects>
+                <viewController title="Scene3Popover3" id="e8w-Gx-hzd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gOX-fA-lq9"/>
+                        <viewControllerLayoutGuide type="bottom" id="L8O-ox-QMq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Eg-HY-QZ7">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mYE-Re-MeQ">
+                                <rect key="frame" x="0.0" y="313" width="500" height="179"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="179" id="hx1-zG-Iho"/>
+                                </constraints>
+                                <string key="text">“LoveLove Films’ work placement has given me a true insight into what working in the world of media production is really like. Unlike most work placements in this industry the team have you doing real jobs and shadowing senior team members, rather than being just a glorified tea boy. I’ve never felt that I am just on placement here, but rather the team of friendly and welcoming professionals have made me feel like one of them, and that the work and research that I have done here, is important to them and Lovelove Films.
+BILL MERNER, 2014 BA TV PRODUCTION AT BOURNEMOUTH UNIVERSITY”</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t4e-U5-G36">
+                                <rect key="frame" x="0.0" y="74" width="500" height="223"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">“Since the company’s foundation we’ve been running an immersive work placement scheme that sees us take on around 30 placements every year. In their time with us the placements are given industry specific tasks that involve practical media production. The team works very closely with the placements, ensuring that they take on and learn how to function in a practical media environment and that they become significantly more employable in the media industry when the work placement is complete.
+We know that our placement scheme is effective, as a recent survey found that 93% of our placement students have gone on to find work or successfully enter in higher education after participating. We also recently won a prestigious DCCI award for Engagement with Education for our hard work in this area.”
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Placement Scheme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8E-cW-Ro8">
+                                <rect key="frame" x="137" y="28" width="306" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="AqL-bh-Rt9"/>
+                                    <constraint firstAttribute="width" constant="306" id="L1I-2L-eZM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24313725490196078" green="0.68627450980392157" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mYE-Re-MeQ" firstAttribute="leading" secondItem="2Eg-HY-QZ7" secondAttribute="leading" id="6f6-bd-Afm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r8E-cW-Ro8" secondAttribute="trailing" constant="37" id="Fpg-JU-OoE"/>
+                            <constraint firstItem="mYE-Re-MeQ" firstAttribute="leading" secondItem="t4e-U5-G36" secondAttribute="leading" id="N2F-IJ-3E3"/>
+                            <constraint firstItem="mYE-Re-MeQ" firstAttribute="top" secondItem="t4e-U5-G36" secondAttribute="bottom" constant="16" id="TBd-kl-AjD"/>
+                            <constraint firstItem="L8O-ox-QMq" firstAttribute="top" secondItem="mYE-Re-MeQ" secondAttribute="bottom" constant="8" symbolic="YES" id="bWt-jg-H24"/>
+                            <constraint firstItem="r8E-cW-Ro8" firstAttribute="top" secondItem="gOX-fA-lq9" secondAttribute="bottom" constant="8" symbolic="YES" id="cop-L4-Gcq"/>
+                            <constraint firstItem="mYE-Re-MeQ" firstAttribute="trailing" secondItem="t4e-U5-G36" secondAttribute="trailing" id="gV4-oa-QZZ"/>
+                            <constraint firstItem="t4e-U5-G36" firstAttribute="top" secondItem="r8E-cW-Ro8" secondAttribute="bottom" constant="20" id="snf-PY-TBf"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="500"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WTf-wx-bsa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1814" y="-1855"/>
+        </scene>
+        <!--Scene3Popover1-->
+        <scene sceneID="x0z-Gs-ABc">
+            <objects>
+                <viewController title="Scene3Popover1" id="7DH-jf-Xuy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xvh-wD-8mf"/>
+                        <viewControllerLayoutGuide type="bottom" id="OkC-Vj-KIf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eg6-NF-grt">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Awards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wch-yC-gIJ">
+                                <rect key="frame" x="181" y="28" width="181" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="RAL-G5-xYF"/>
+                                    <constraint firstAttribute="height" constant="21" id="WKB-GY-rG9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kWz-CD-2GK">
+                                <rect key="frame" x="42" y="70" width="417" height="300"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Our successes include a wide array of music videos or the multi-platinum album selling musician Joss Stone, the production and distribution of over 50 Television Commericals to date, and the CH4 Fourdocs supported documentary 'I Won't Go'. LoveLove also has an impressive roster of Promotional Media to our name, having produced web videos for brands as diverse as McCarthy and Stone, Starbucks, Barclaycard and many more." </string>
+                                <color key="textColor" red="1" green="0.99913119620983692" blue="0.96426322707571899" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OkC-Vj-KIf" firstAttribute="top" secondItem="kWz-CD-2GK" secondAttribute="bottom" constant="30" id="1Ye-wA-mB5"/>
+                            <constraint firstItem="Wch-yC-gIJ" firstAttribute="top" secondItem="xvh-wD-8mf" secondAttribute="bottom" constant="8" symbolic="YES" id="4NB-p8-IkP"/>
+                            <constraint firstItem="kWz-CD-2GK" firstAttribute="top" secondItem="Wch-yC-gIJ" secondAttribute="bottom" constant="21" id="E09-MN-dJO"/>
+                            <constraint firstItem="kWz-CD-2GK" firstAttribute="centerX" secondItem="eg6-NF-grt" secondAttribute="centerX" id="FwC-iA-Elu"/>
+                            <constraint firstItem="Wch-yC-gIJ" firstAttribute="leading" secondItem="eg6-NF-grt" secondAttribute="leading" constant="181" id="aF9-2S-m9m"/>
+                            <constraint firstItem="kWz-CD-2GK" firstAttribute="leading" secondItem="eg6-NF-grt" secondAttribute="leadingMargin" constant="22" id="pZk-5g-xWX"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="400"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HEA-WB-AaL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1460" y="-1196"/>
+        </scene>
+        <!--Scene3Popver2-->
+        <scene sceneID="wH2-BW-J3w">
+            <objects>
+                <viewController title="Scene3Popver2" id="loD-2v-x9G" customClass="Scene3Popoverfile" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cUT-af-nrs"/>
+                        <viewControllerLayoutGuide type="bottom" id="pYd-S1-W9h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5fg-ve-231">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lex-0Z-6Xx">
+                                <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="500"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="500"/>
+                    <connections>
+                        <outlet property="videoView1" destination="Lex-0Z-6Xx" id="NVt-Vd-UV8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFW-3a-9y2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2151" y="-1196"/>
+        </scene>
+        <!--Scene5Popover3-->
+        <scene sceneID="cAW-vV-OlR">
+            <objects>
+                <viewController title="Scene5Popover3" id="o8E-td-cR4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZxO-1x-E2f"/>
+                        <viewControllerLayoutGuide type="bottom" id="gIs-pL-tZd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7BL-eE-im1">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="350"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ywb-lw-gMk">
+                                <rect key="frame" x="20" y="84" width="460" height="205"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Having graduated as an Illustrator and Designer from the Arts University Bournemouth (AUB) in 2000, Tom brings both traditional and digital skills to the animation team at LoveLove Films. As well as being an exceptional digital artist and animator, Tom has worked as a digital workflow specialist to media companies, design agencies and the print industry and has aided in the implementation of new data management and network infrastructure at LoveLove.
+</string>
+                                <color key="textColor" red="1" green="0.98903828036760355" blue="0.99979256716803733" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ANIMATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqG-DS-SkL">
+                                <rect key="frame" x="197" y="55" width="107" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Dwx-OC-gLn"/>
+                                    <constraint firstAttribute="width" constant="107" id="e1w-hQ-cby"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.93865190922243513" green="0.9729362095543127" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbR-EG-ajs">
+                                <rect key="frame" x="158" y="28" width="231" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="231" id="BEf-FA-oEj"/>
+                                    <constraint firstAttribute="height" constant="21" id="fgF-Ql-NmC"/>
+                                </constraints>
+                                <string key="text">TOM SUDDREY
+</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jqG-DS-SkL" firstAttribute="top" secondItem="RbR-EG-ajs" secondAttribute="bottom" constant="6" id="BXu-cB-lNM"/>
+                            <constraint firstItem="RbR-EG-ajs" firstAttribute="top" secondItem="ZxO-1x-E2f" secondAttribute="bottom" constant="8" symbolic="YES" id="J60-V2-N1G"/>
+                            <constraint firstItem="ywb-lw-gMk" firstAttribute="leading" secondItem="7BL-eE-im1" secondAttribute="leadingMargin" id="Kij-EV-110"/>
+                            <constraint firstItem="ywb-lw-gMk" firstAttribute="trailing" secondItem="7BL-eE-im1" secondAttribute="trailingMargin" id="Wx9-ZJ-iBV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RbR-EG-ajs" secondAttribute="trailing" constant="91" id="b3r-dW-U5b"/>
+                            <constraint firstItem="ywb-lw-gMk" firstAttribute="top" secondItem="jqG-DS-SkL" secondAttribute="bottom" constant="8" symbolic="YES" id="eY5-Gb-Bjv"/>
+                            <constraint firstItem="gIs-pL-tZd" firstAttribute="top" secondItem="ywb-lw-gMk" secondAttribute="bottom" constant="61" id="fEM-8u-ZFe"/>
+                            <constraint firstItem="jqG-DS-SkL" firstAttribute="centerX" secondItem="ywb-lw-gMk" secondAttribute="centerX" id="xQI-ip-ecK"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="350"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="350"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iax-7C-DQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3227" y="-1855"/>
+        </scene>
+        <!--Scene5Popover1-->
+        <scene sceneID="gN1-Xi-9fD">
+            <objects>
+                <viewController title="Scene5Popover1" id="0l4-nR-S4D" customClass="Scene5Popoverfile" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7b1-Uk-tO0"/>
+                        <viewControllerLayoutGuide type="bottom" id="YLE-At-99L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xCt-oT-Sqi">
+                        <rect key="frame" x="0.0" y="0.0" width="850" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UB4-3y-XW6">
+                                <rect key="frame" x="0.0" y="0.0" width="748" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="850" height="500"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="850" height="500"/>
+                    <connections>
+                        <outlet property="videoView1" destination="UB4-3y-XW6" id="7NU-ak-cQ1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VYf-6J-xq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2902" y="-1196"/>
+        </scene>
+        <!--Scene5Popover2-->
+        <scene sceneID="gel-z9-gwF">
+            <objects>
+                <viewController title="Scene5Popover2" id="7hc-bd-0fS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zMF-44-KZG"/>
+                        <viewControllerLayoutGuide type="bottom" id="1gW-fJ-UDo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iih-3Y-dGd">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="350"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7U-rL-Ynb">
+                                <rect key="frame" x="123" y="62" width="254" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="254" id="1AG-nD-laL"/>
+                                    <constraint firstAttribute="height" constant="21" id="91w-lm-3hg"/>
+                                </constraints>
+                                <string key="text">LEAD ARTIST - ANIMATION
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.96440967531730637" blue="0.95538250880158271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMm-c1-jVX">
+                                <rect key="frame" x="152" y="28" width="237" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="237" id="ac3-BC-HFx"/>
+                                    <constraint firstAttribute="height" constant="21" id="nSB-5X-xGD"/>
+                                </constraints>
+                                <string key="text">SUNNY CLARKE
+</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jd7-20-V2k">
+                                <rect key="frame" x="20" y="106" width="460" height="204"/>
+                                <color key="backgroundColor" red="0.24080808416881086" green="0.67649531551972109" blue="0.87722944947209658" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Sunny has a wealth of experience developing our key and distinctive animation styles which can be seen in our innovative online videos for TeamJobs and Linsar which utilise 3D animation and modelling. In addition, Sunny has a high level of expertise regarding animation for TV advertising, creating visually stunning animation for clients such as Creditplus and PSP Southampton Boat Show and ensuring that all technical specifications for broadcast are met.
+</string>
+                                <color key="textColor" red="1" green="0.96440967531730637" blue="0.95538250880158271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24313725490196078" green="0.67843137254901964" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="QMm-c1-jVX" secondAttribute="trailing" constant="91" id="D7G-ap-dgK"/>
+                            <constraint firstItem="Jd7-20-V2k" firstAttribute="centerX" secondItem="J7U-rL-Ynb" secondAttribute="centerX" id="J0O-tQ-brb"/>
+                            <constraint firstItem="J7U-rL-Ynb" firstAttribute="top" secondItem="QMm-c1-jVX" secondAttribute="bottom" constant="13" id="pLu-YA-FMl"/>
+                            <constraint firstItem="Jd7-20-V2k" firstAttribute="trailing" secondItem="iih-3Y-dGd" secondAttribute="trailingMargin" id="quM-X4-Ikx"/>
+                            <constraint firstItem="1gW-fJ-UDo" firstAttribute="top" secondItem="Jd7-20-V2k" secondAttribute="bottom" constant="40" id="twg-Gk-DdD"/>
+                            <constraint firstItem="QMm-c1-jVX" firstAttribute="top" secondItem="zMF-44-KZG" secondAttribute="bottom" constant="8" symbolic="YES" id="xya-IV-Nk1"/>
+                            <constraint firstItem="Jd7-20-V2k" firstAttribute="leading" secondItem="iih-3Y-dGd" secondAttribute="leadingMargin" id="zgw-Y9-Bqq"/>
+                            <constraint firstItem="Jd7-20-V2k" firstAttribute="top" secondItem="J7U-rL-Ynb" secondAttribute="bottom" constant="23" id="zh3-kl-iel"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="350"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="350"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hey-vO-AXt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3840" y="-1266"/>
+        </scene>
+        <!--Scene 3-->
+        <scene sceneID="9H1-VK-dEL">
+            <objects>
+                <viewController storyboardIdentifier="Scene 2" id="5px-z3-6qe" customClass="Scene3" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jEO-yX-PeF"/>
+                        <viewControllerLayoutGuide type="bottom" id="8mg-r0-VjC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kNQ-ea-Cnr">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="scene2ii-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="M4n-dy-vVH">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuL-cF-vaJ">
+                                <rect key="frame" x="470" y="458" width="546" height="232"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="232" id="DCS-O6-Hcq"/>
+                                    <constraint firstAttribute="width" constant="546" id="OJe-FO-MVM"/>
+                                </constraints>
+                                <state key="normal" image="sofa"/>
+                                <connections>
+                                    <segue destination="e8w-Gx-hzd" kind="popoverPresentation" popoverAnchorView="SuL-cF-vaJ" id="cH8-51-vbN">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgQ-l3-2vu">
+                                <rect key="frame" x="46" y="240" width="247" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="awards.png"/>
+                                <connections>
+                                    <segue destination="7DH-jf-Xuy" kind="popoverPresentation" popoverAnchorView="BgQ-l3-2vu" id="7Ce-9T-yt7">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmP-Z1-Oji">
+                                <rect key="frame" x="630" y="123" width="327" height="203"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="327" id="TKZ-oo-uHa"/>
+                                    <constraint firstAttribute="height" constant="203" id="XFR-RK-37O"/>
+                                </constraints>
+                                <state key="normal" image="TvWall"/>
+                                <connections>
+                                    <segue destination="loD-2v-x9G" kind="popoverPresentation" popoverAnchorView="FmP-Z1-Oji" id="GFO-2x-mbC">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placementsbubble" translatesAutoresizingMaskIntoConstraints="NO" id="O8q-Nf-miO">
+                                <rect key="frame" x="193" y="435" width="327" height="224"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="224" id="QQY-4W-kSg"/>
+                                    <constraint firstAttribute="width" constant="327" id="bL2-hj-Twy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O8q-Nf-miO" firstAttribute="leading" secondItem="kNQ-ea-Cnr" secondAttribute="leading" constant="193" id="2DO-48-GZJ"/>
+                            <constraint firstItem="M4n-dy-vVH" firstAttribute="leading" secondItem="kNQ-ea-Cnr" secondAttribute="leading" id="2dy-Xm-26U"/>
+                            <constraint firstItem="M4n-dy-vVH" firstAttribute="top" secondItem="kNQ-ea-Cnr" secondAttribute="top" id="58U-UX-FlO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FmP-Z1-Oji" secondAttribute="trailing" constant="47" id="7we-as-vVf"/>
+                            <constraint firstItem="8mg-r0-VjC" firstAttribute="top" secondItem="O8q-Nf-miO" secondAttribute="bottom" constant="60" id="cBT-TC-WrG"/>
+                            <constraint firstItem="FmP-Z1-Oji" firstAttribute="top" secondItem="jEO-yX-PeF" secondAttribute="bottom" constant="103" id="cNG-uR-wf1"/>
+                            <constraint firstItem="SuL-cF-vaJ" firstAttribute="leading" secondItem="M4n-dy-vVH" secondAttribute="trailing" constant="-554" id="ilU-co-hW0"/>
+                            <constraint firstAttribute="trailing" secondItem="M4n-dy-vVH" secondAttribute="trailing" id="uH0-l0-w6G"/>
+                            <constraint firstItem="M4n-dy-vVH" firstAttribute="bottom" secondItem="8mg-r0-VjC" secondAttribute="top" id="uUN-t2-DLn"/>
+                            <constraint firstItem="8mg-r0-VjC" firstAttribute="top" secondItem="SuL-cF-vaJ" secondAttribute="bottom" constant="29" id="wZJ-Wz-7us"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene 3" image="hat" selectedImage="hat" id="KVj-HQ-jRf"/>
+                    <connections>
+                        <outlet property="testImage" destination="O8q-Nf-miO" id="bvM-pu-0ke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o4M-0n-Su9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1630" y="-400"/>
+        </scene>
+        <!--Scene 5-->
+        <scene sceneID="UgW-np-mHi">
+            <objects>
+                <viewController id="JKi-mR-jIE" customClass="Scene5" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eGE-zc-n5y"/>
+                        <viewControllerLayoutGuide type="bottom" id="zrN-4O-war"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Im6-i4-mD7">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="scene 4-1" translatesAutoresizingMaskIntoConstraints="NO" id="tue-if-Wr8">
+                                <rect key="frame" x="0.0" y="20" width="1024" height="699"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6B-Me-fwk">
+                                <rect key="frame" x="743" y="316" width="217" height="395"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="217" id="he9-fm-avu"/>
+                                    <constraint firstAttribute="height" constant="395" id="ypg-nH-lYu"/>
+                                </constraints>
+                                <state key="normal" image="Sunny"/>
+                                <connections>
+                                    <segue destination="7hc-bd-0fS" kind="popoverPresentation" popoverAnchorView="Q6B-Me-fwk" id="25d-6X-axj">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpj-WU-gmM">
+                                <rect key="frame" x="545" y="322" width="181" height="383"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="ilr-AR-7Sf"/>
+                                    <constraint firstAttribute="height" constant="383" id="nAy-mg-S6k"/>
+                                </constraints>
+                                <state key="normal" image="Tom"/>
+                                <connections>
+                                    <segue destination="o8E-td-cR4" kind="popoverPresentation" popoverAnchorView="fpj-WU-gmM" id="eRv-Ln-Bdg">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgH-UN-GIZ">
+                                <rect key="frame" x="245" y="445" width="144" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="arf-vc-lB3"/>
+                                </constraints>
+                                <state key="normal" image="Computer"/>
+                                <connections>
+                                    <segue destination="0l4-nR-S4D" kind="popoverPresentation" popoverAnchorView="NgH-UN-GIZ" id="FNO-mT-99b">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="team2bubble" translatesAutoresizingMaskIntoConstraints="NO" id="VrN-sw-9BA">
+                                <rect key="frame" x="224" y="495" width="329" height="232"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="329" id="akv-pc-p6W"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tue-if-Wr8" secondAttribute="trailing" id="0Wc-UE-1hE"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="VrN-sw-9BA" secondAttribute="bottom" constant="41" id="4lo-be-Rbn"/>
+                            <constraint firstItem="zrN-4O-war" firstAttribute="top" secondItem="Q6B-Me-fwk" secondAttribute="bottom" constant="8" id="7oN-Yy-wy8"/>
+                            <constraint firstItem="zrN-4O-war" firstAttribute="top" secondItem="tue-if-Wr8" secondAttribute="bottom" id="BZB-UD-D6C"/>
+                            <constraint firstItem="Q6B-Me-fwk" firstAttribute="leading" secondItem="tue-if-Wr8" secondAttribute="trailing" constant="-281" id="Cen-Zf-lxO"/>
+                            <constraint firstItem="VrN-sw-9BA" firstAttribute="top" secondItem="eGE-zc-n5y" secondAttribute="bottom" constant="475" id="ThP-kU-0TU"/>
+                            <constraint firstItem="fpj-WU-gmM" firstAttribute="top" secondItem="tue-if-Wr8" secondAttribute="bottom" constant="-397" id="VO7-im-YP2"/>
+                            <constraint firstItem="tue-if-Wr8" firstAttribute="top" secondItem="eGE-zc-n5y" secondAttribute="bottom" id="ZkK-O5-zxJ"/>
+                            <constraint firstItem="Q6B-Me-fwk" firstAttribute="leading" secondItem="fpj-WU-gmM" secondAttribute="trailing" constant="17" id="a4t-Ob-98o"/>
+                            <constraint firstItem="zrN-4O-war" firstAttribute="top" secondItem="tue-if-Wr8" secondAttribute="bottom" id="ahm-hk-DRl"/>
+                            <constraint firstItem="tue-if-Wr8" firstAttribute="leading" secondItem="Im6-i4-mD7" secondAttribute="leading" id="e8h-Lh-eN6"/>
+                            <constraint firstAttribute="trailing" secondItem="tue-if-Wr8" secondAttribute="trailing" id="fM3-Vj-74X"/>
+                            <constraint firstItem="tue-if-Wr8" firstAttribute="top" secondItem="Im6-i4-mD7" secondAttribute="top" id="gKh-cY-o1G"/>
+                            <constraint firstItem="tue-if-Wr8" firstAttribute="leading" secondItem="Im6-i4-mD7" secondAttribute="leading" id="ggJ-dx-zT4"/>
+                            <constraint firstItem="VrN-sw-9BA" firstAttribute="leading" secondItem="Im6-i4-mD7" secondAttribute="leading" constant="224" id="r2X-32-zMo"/>
+                            <constraint firstItem="NgH-UN-GIZ" firstAttribute="top" secondItem="eGE-zc-n5y" secondAttribute="bottom" constant="425" id="sSF-hT-Sdi"/>
+                            <constraint firstItem="NgH-UN-GIZ" firstAttribute="leading" secondItem="Im6-i4-mD7" secondAttribute="leading" constant="245" id="sYE-mY-Dm6"/>
+                            <constraint firstItem="zrN-4O-war" firstAttribute="top" secondItem="NgH-UN-GIZ" secondAttribute="bottom" constant="193" id="w5z-vz-oHK"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gKh-cY-o1G"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene 5" image="play" selectedImage="play" id="W4O-lW-BNh"/>
+                    <connections>
+                        <outlet property="testImage" destination="VrN-sw-9BA" id="MRD-ne-dFC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QIv-y4-jr3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3196" y="-400"/>
+        </scene>
+        <!--Scene 6-->
+        <scene sceneID="xdP-aN-ifI">
+            <objects>
+                <viewController id="Tv3-aB-wdA" customClass="Scene6" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yQK-7c-9b7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nfe-mq-ckF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="epx-j0-eF2">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="scene5i-1" translatesAutoresizingMaskIntoConstraints="NO" id="88G-bR-6E8">
+                                <rect key="frame" x="0.0" y="20" width="1024" height="699"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqd-Or-qQM">
+                                <rect key="frame" x="392" y="316" width="455" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="455" id="B5e-dh-dDJ"/>
+                                    <constraint firstAttribute="height" constant="60" id="vOv-5y-CbE"/>
+                                </constraints>
+                                <state key="normal" image="Cups"/>
+                                <connections>
+                                    <segue destination="zc0-W8-8QZ" kind="popoverPresentation" popoverAnchorView="Jqd-Or-qQM" id="3jF-lW-KTo">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9j-dh-BVQ">
+                                <rect key="frame" x="269" y="271" width="144" height="424"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="424" id="PLN-S6-yeS"/>
+                                    <constraint firstAttribute="width" constant="144" id="etS-3R-Abl"/>
+                                </constraints>
+                                <state key="normal" image="Josh"/>
+                                <connections>
+                                    <segue destination="CSk-7w-v9S" kind="popoverPresentation" popoverAnchorView="p9j-dh-BVQ" id="uKP-4B-0sx">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r88-aa-JbN">
+                                <rect key="frame" x="807" y="298" width="181" height="397"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="IRe-kg-CjQ"/>
+                                </constraints>
+                                <state key="normal" image="faith"/>
+                                <connections>
+                                    <segue destination="Dq2-xq-n4u" kind="popoverPresentation" popoverAnchorView="r88-aa-JbN" id="eSb-tz-dIP">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="teabubble" translatesAutoresizingMaskIntoConstraints="NO" id="MI9-8s-h5g">
+                                <rect key="frame" x="209" y="469" width="320" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="MVC-Ol-It2"/>
+                                    <constraint firstAttribute="height" constant="207" id="kvB-Cp-Pe1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="88G-bR-6E8" firstAttribute="leading" secondItem="epx-j0-eF2" secondAttribute="leading" id="0rR-ae-9do"/>
+                            <constraint firstItem="88G-bR-6E8" firstAttribute="leading" secondItem="MI9-8s-h5g" secondAttribute="trailing" constant="-529" id="72h-y6-DkC"/>
+                            <constraint firstItem="88G-bR-6E8" firstAttribute="top" secondItem="yQK-7c-9b7" secondAttribute="bottom" id="AHs-hK-LW4"/>
+                            <constraint firstItem="Nfe-mq-ckF" firstAttribute="top" secondItem="88G-bR-6E8" secondAttribute="bottom" id="Aty-0a-Q6f"/>
+                            <constraint firstItem="Nfe-mq-ckF" firstAttribute="top" secondItem="Jqd-Or-qQM" secondAttribute="bottom" constant="343" id="Ha6-8r-Ory"/>
+                            <constraint firstItem="Nfe-mq-ckF" firstAttribute="top" secondItem="p9j-dh-BVQ" secondAttribute="bottom" constant="24" id="JIa-TN-EII"/>
+                            <constraint firstAttribute="trailing" secondItem="88G-bR-6E8" secondAttribute="trailing" id="OjK-dp-XDE"/>
+                            <constraint firstItem="Nfe-mq-ckF" firstAttribute="top" secondItem="MI9-8s-h5g" secondAttribute="bottom" constant="43" id="PmW-eg-MFH"/>
+                            <constraint firstItem="88G-bR-6E8" firstAttribute="leading" secondItem="p9j-dh-BVQ" secondAttribute="trailing" constant="-413" id="V8r-Ej-RIL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r88-aa-JbN" secondAttribute="trailing" constant="16" id="kIK-f3-LPK"/>
+                            <constraint firstItem="Jqd-Or-qQM" firstAttribute="leading" secondItem="88G-bR-6E8" secondAttribute="trailing" constant="-632" id="pux-fb-0l4"/>
+                            <constraint firstItem="r88-aa-JbN" firstAttribute="top" secondItem="yQK-7c-9b7" secondAttribute="bottom" constant="278" id="uG8-Sg-kuO"/>
+                            <constraint firstItem="r88-aa-JbN" firstAttribute="bottom" secondItem="p9j-dh-BVQ" secondAttribute="bottom" id="uTd-o0-f5G"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene 6" image="mug" selectedImage="mug" id="5QL-3c-iEu"/>
+                    <connections>
+                        <outlet property="testImage" destination="MI9-8s-h5g" id="RZz-O4-3HV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NYy-h7-Wvm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2796" y="520"/>
+        </scene>
+        <!--Scene6Popover1-->
+        <scene sceneID="RfA-3X-IJP">
+            <objects>
+                <viewController title="Scene6Popover1" id="CSk-7w-v9S" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZUe-q3-QZ1"/>
+                        <viewControllerLayoutGuide type="bottom" id="YUx-zv-0a1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xO9-8A-T4h">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LkQ-UE-cPd">
+                                <rect key="frame" x="144" y="28" width="212" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="212" id="86L-hW-OaX"/>
+                                    <constraint firstAttribute="height" constant="21" id="96I-MZ-fgk"/>
+                                </constraints>
+                                <string key="text">JOSH COURTICE
+</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D19-Tn-zsw">
+                                <rect key="frame" x="70" y="57" width="360" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DTR-dN-cLF"/>
+                                </constraints>
+                                <string key="text">APPRENTICE DESIGNER / ILLUSTRATOR
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.99116011615270061" green="0.98532476689462811" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oef-tP-Dpf">
+                                <rect key="frame" x="10" y="112" width="470" height="216"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Having recently left Yeovil College after doing a BTEC Level 3 in Business, Josh wanted to follow his passion for creative work, and is now our LoveLove apprentice! His key roles include graphic design, concept imagery creation, asset creation, storyboarding &amp; illustration skills. He also assists our animation and production office team, as well as learning new skills from our senior animators. 
+</string>
+                                <color key="textColor" red="0.91470006068909648" green="0.91684164244702271" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="D19-Tn-zsw" firstAttribute="centerX" secondItem="LkQ-UE-cPd" secondAttribute="centerX" id="02P-d8-szX"/>
+                            <constraint firstItem="LkQ-UE-cPd" firstAttribute="centerX" secondItem="xO9-8A-T4h" secondAttribute="centerX" id="6zr-y5-lnc"/>
+                            <constraint firstItem="LkQ-UE-cPd" firstAttribute="top" secondItem="ZUe-q3-QZ1" secondAttribute="bottom" constant="8" symbolic="YES" id="7yn-Q3-wes"/>
+                            <constraint firstItem="D19-Tn-zsw" firstAttribute="leading" secondItem="xO9-8A-T4h" secondAttribute="leadingMargin" constant="50" id="Cjr-px-fEm"/>
+                            <constraint firstItem="Oef-tP-Dpf" firstAttribute="leading" secondItem="xO9-8A-T4h" secondAttribute="leadingMargin" constant="-10" id="Hiu-br-5az"/>
+                            <constraint firstItem="D19-Tn-zsw" firstAttribute="top" secondItem="LkQ-UE-cPd" secondAttribute="bottom" constant="8" symbolic="YES" id="LbJ-HG-amj"/>
+                            <constraint firstItem="Oef-tP-Dpf" firstAttribute="trailing" secondItem="xO9-8A-T4h" secondAttribute="trailingMargin" id="QEE-G5-cNc"/>
+                            <constraint firstItem="YUx-zv-0a1" firstAttribute="top" secondItem="Oef-tP-Dpf" secondAttribute="bottom" constant="72" id="U1D-kD-lOi"/>
+                            <constraint firstItem="Oef-tP-Dpf" firstAttribute="top" secondItem="D19-Tn-zsw" secondAttribute="bottom" constant="34" id="Vtg-he-hc6"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="400"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbb-US-Lrw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2796" y="1346"/>
+        </scene>
+        <!--Scene6Popover3-->
+        <scene sceneID="LIq-kr-F11">
+            <objects>
+                <viewController title="Scene6Popover3" id="zc0-W8-8QZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ekk-Cd-Wdr"/>
+                        <viewControllerLayoutGuide type="bottom" id="qZl-xN-m11"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XVO-c7-l0J">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="310"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Testomonials" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK4-SD-H12">
+                                <rect key="frame" x="147" y="28" width="252" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="252" id="3ey-Gb-UuT"/>
+                                    <constraint firstAttribute="height" constant="33" id="DSI-0D-6vG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nj3-5y-Mgo">
+                                <rect key="frame" x="4" y="76" width="493" height="214"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.68627450980392157" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">“Georgina Hurcombe- Managing Director:
+I’m the founder and managing director of LoveLove Films. I started the company in 2010 to create a Bournemouth based media production alternative to the classic hubs of London and Bristol. I heavily focused on creating stunning animated content. I also focused on employing new talent and set up our award winning work placement scheme. I love that we’ve become such a successful company so soon!”
+
+“Sunny Clarke – Lead Animator:
+I joined LoveLove Films in 2011 and began producing animated content for all sorts of videos. In time I became the lead animator and now oversee animation work on all our projects. I love the variety of projects and seeing the public react to them.” 
+
+“Tom Suddrey- Animator:
+Since 2013 I’ve been working in the animation department. My specialism is asset creation and designing characters. I love being able to create so many different designs on videos!”
+
+“Faith Glenister- Production Coordinator:
+After producing a variety of award winning and nominated films I joined the team in 2016. I organise the productions, shoots and liaise with clients. Everyone in the team has made me feel very welcome!”
+
+“Maxim Sorokopud- Writer and Account Manager:
+I joined as a writer in 2012, however I soon expanded to other areas. I think LoveLove Films is the perfect place to start out in the industry. My favourite thing about the job is that I’ve managed to grow such a wide range of skills.”
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24705882352941178" green="0.68627450980392157" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="PK4-SD-H12" secondAttribute="trailing" constant="81" id="1Jd-Xg-NvV"/>
+                            <constraint firstItem="PK4-SD-H12" firstAttribute="top" secondItem="Ekk-Cd-Wdr" secondAttribute="bottom" constant="8" symbolic="YES" id="5NX-oM-vSQ"/>
+                            <constraint firstItem="Nj3-5y-Mgo" firstAttribute="leading" secondItem="XVO-c7-l0J" secondAttribute="leadingMargin" constant="-16" id="Ndm-pY-cwH"/>
+                            <constraint firstAttribute="bottom" secondItem="Nj3-5y-Mgo" secondAttribute="bottom" constant="20" symbolic="YES" id="coo-cj-Fmg"/>
+                            <constraint firstItem="Nj3-5y-Mgo" firstAttribute="top" secondItem="PK4-SD-H12" secondAttribute="bottom" constant="15" id="tan-74-nn2"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="350"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="310"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PY5-Nv-fwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3803" y="436"/>
+        </scene>
+        <!--Scene6Popover2-->
+        <scene sceneID="Yht-4n-VMH">
+            <objects>
+                <viewController title="Scene6Popover2" id="Dq2-xq-n4u" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qe9-5N-v62"/>
+                        <viewControllerLayoutGuide type="bottom" id="Prj-Tp-0zI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9oj-JI-WUp">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDE-qt-MG2">
+                                <rect key="frame" x="144" y="28" width="280" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="8ZC-3B-hyq"/>
+                                    <constraint firstAttribute="height" constant="21" id="oLG-qR-spo"/>
+                                </constraints>
+                                <string key="text">FAITH GLENISTER
+</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Daz-Cr-8GI">
+                                <rect key="frame" x="11" y="64" width="478" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="xvv-PI-86Y"/>
+                                </constraints>
+                                <string key="text">PRODUCTION COORDINATOR AND CAMERA WOMAN
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.99576752237231314" green="0.98941004659703358" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7CC-O3-07y">
+                                <rect key="frame" x="64" y="98" width="373" height="211"/>
+                                <color key="backgroundColor" red="0.24313725490196078" green="0.68235294117647061" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Faith is a Camera Operator and Production Coordinator with a range of experience. After graduating from The School of Film and Television at Falmouth University, Faith then moved back to Dorset in search of an opportunity to kickstart her career in film.
+</string>
+                                <color key="textColor" red="0.99576752237231314" green="0.98941004659703358" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24313725490196078" green="0.68627450980392157" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Daz-Cr-8GI" firstAttribute="centerX" secondItem="7CC-O3-07y" secondAttribute="centerX" id="4LG-cW-9yd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XDE-qt-MG2" secondAttribute="trailing" constant="56" id="4UK-lK-nop"/>
+                            <constraint firstItem="7CC-O3-07y" firstAttribute="leading" secondItem="9oj-JI-WUp" secondAttribute="leadingMargin" constant="44" id="630-Ud-Nt9"/>
+                            <constraint firstItem="Daz-Cr-8GI" firstAttribute="centerX" secondItem="9oj-JI-WUp" secondAttribute="centerX" id="63X-XK-l2C"/>
+                            <constraint firstItem="Daz-Cr-8GI" firstAttribute="leading" secondItem="9oj-JI-WUp" secondAttribute="leadingMargin" constant="-9" id="GQn-FW-reE"/>
+                            <constraint firstItem="Daz-Cr-8GI" firstAttribute="top" secondItem="XDE-qt-MG2" secondAttribute="bottom" constant="15" id="Gm2-xG-Ik1"/>
+                            <constraint firstItem="7CC-O3-07y" firstAttribute="top" secondItem="Daz-Cr-8GI" secondAttribute="bottom" constant="13" id="T4d-6d-I1R"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="7CC-O3-07y" secondAttribute="bottom" constant="-9" id="nCV-zK-sWu"/>
+                            <constraint firstItem="XDE-qt-MG2" firstAttribute="top" secondItem="qe9-5N-v62" secondAttribute="bottom" constant="8" symbolic="YES" id="uNA-T1-4li"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="300"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bb-pa-ebl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3445" y="1346"/>
+        </scene>
+        <!--Scene 2-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController title="Scene 2" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="scene 1-2" translatesAutoresizingMaskIntoConstraints="NO" id="e9o-GU-alU">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="768" id="Lph-cE-meM"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02B-fs-omP">
+                                <rect key="frame" x="742" y="430" width="234" height="239"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="239" id="5tZ-5j-9fS"/>
+                                    <constraint firstAttribute="width" constant="234" id="Ibg-6V-Opd"/>
+                                </constraints>
+                                <state key="normal" image="TvScreen"/>
+                                <connections>
+                                    <segue destination="NUK-H3-E2X" kind="popoverPresentation" popoverAnchorView="02B-fs-omP" id="pJB-wj-eiW">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2Y-JK-y8Y">
+                                <rect key="frame" x="563" y="170" width="321" height="239"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="321" id="AWv-Co-B72"/>
+                                    <constraint firstAttribute="height" constant="239" id="Mbn-wP-8ov"/>
+                                </constraints>
+                                <state key="normal" image="NextMonth"/>
+                                <connections>
+                                    <segue destination="c4y-lf-1cy" kind="popoverPresentation" popoverAnchorView="B2Y-JK-y8Y" id="sNn-0h-AYV">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WN8-vp-hZM">
+                                <rect key="frame" x="195" y="170" width="324" height="239"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="239" id="0ZZ-Dx-vz7"/>
+                                    <constraint firstAttribute="width" constant="324" id="VQD-HG-dIw"/>
+                                </constraints>
+                                <state key="normal" image="ThisMonth"/>
+                                <connections>
+                                    <segue destination="2HR-Za-vqb" kind="popoverPresentation" popoverAnchorView="WN8-vp-hZM" id="Zv4-OW-cW8">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blackboardsbubble" translatesAutoresizingMaskIntoConstraints="NO" id="V7r-fX-3vW">
+                                <rect key="frame" x="188" y="441" width="351" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="351" id="Src-Vo-TPy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="02B-fs-omP" firstAttribute="leading" secondItem="e9o-GU-alU" secondAttribute="trailing" constant="-282" id="0z4-wW-KvU"/>
+                            <constraint firstItem="e9o-GU-alU" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="7aT-Ay-fCN"/>
+                            <constraint firstItem="e9o-GU-alU" firstAttribute="leading" secondItem="WN8-vp-hZM" secondAttribute="trailing" constant="-519" id="80d-S9-cle"/>
+                            <constraint firstItem="e9o-GU-alU" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="9Dd-cm-cre"/>
+                            <constraint firstItem="V7r-fX-3vW" firstAttribute="top" secondItem="WN8-vp-hZM" secondAttribute="bottom" constant="32" id="HpT-bQ-H3Q"/>
+                            <constraint firstItem="B2Y-JK-y8Y" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="150" id="Hvf-2z-LgP"/>
+                            <constraint firstItem="B2Y-JK-y8Y" firstAttribute="leading" secondItem="e9o-GU-alU" secondAttribute="trailing" constant="-461" id="J3C-GQ-wjY"/>
+                            <constraint firstItem="WN8-vp-hZM" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="150" id="KEV-7B-ekP"/>
+                            <constraint firstAttribute="trailing" secondItem="e9o-GU-alU" secondAttribute="trailing" id="S7a-gF-gjg"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="V7r-fX-3vW" secondAttribute="bottom" constant="38" id="eYu-cU-ABG"/>
+                            <constraint firstItem="V7r-fX-3vW" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" constant="188" id="gia-lb-Q0m"/>
+                            <constraint firstAttribute="bottom" secondItem="e9o-GU-alU" secondAttribute="bottom" id="m01-ct-Hc7"/>
+                            <constraint firstItem="02B-fs-omP" firstAttribute="top" secondItem="e9o-GU-alU" secondAttribute="bottom" constant="-338" id="r6r-IR-CZk"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene 2" image="book" selectedImage="book" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="testImage" destination="V7r-fX-3vW" id="bGy-MY-tGQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="540" y="520"/>
+        </scene>
+        <!--Scene2Popover1-->
+        <scene sceneID="BSx-2f-Txu">
+            <objects>
+                <viewController title="Scene2Popover1" definesPresentationContext="YES" id="2HR-Za-vqb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AYF-ma-Azf"/>
+                        <viewControllerLayoutGuide type="bottom" id="1FD-Uw-wx8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vIc-bV-wXi">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tS9-DL-EbN">
+                                <rect key="frame" x="0.0" y="67" width="500" height="80"/>
+                                <color key="backgroundColor" red="0.2380162123295774" green="0.66865218920902447" blue="0.86705905920060333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="2Dq-mn-zRQ"/>
+                                </constraints>
+                                <string key="text">We enjoy working with a wide variety of clients, from new and exciting start-up businesses, to larger international conglomerates. What we really enjoy is finding the media that suits your needs, and working out what suits your best.</string>
+                                <color key="textColor" red="1" green="0.98744110537611662" blue="0.96510697093546627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clients" translatesAutoresizingMaskIntoConstraints="NO" id="G7P-z8-mDE">
+                                <rect key="frame" x="0.0" y="149" width="500" height="351"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Previous Clients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfT-Vj-CuY">
+                                <rect key="frame" x="143" y="20" width="215" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="so3-ER-O4M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23921568627450981" green="0.66666666666666663" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="G7P-z8-mDE" firstAttribute="top" secondItem="tS9-DL-EbN" secondAttribute="bottom" constant="2" id="AjH-Gg-YsF"/>
+                            <constraint firstItem="G7P-z8-mDE" firstAttribute="leading" secondItem="tS9-DL-EbN" secondAttribute="leading" id="HEQ-Yr-2E8"/>
+                            <constraint firstItem="RfT-Vj-CuY" firstAttribute="centerX" secondItem="tS9-DL-EbN" secondAttribute="centerX" id="NDE-o6-pyw"/>
+                            <constraint firstItem="G7P-z8-mDE" firstAttribute="trailing" secondItem="tS9-DL-EbN" secondAttribute="trailing" id="ZCC-t7-DYl"/>
+                            <constraint firstItem="RfT-Vj-CuY" firstAttribute="top" secondItem="AYF-ma-Azf" secondAttribute="bottom" id="l54-KT-2DE"/>
+                            <constraint firstItem="tS9-DL-EbN" firstAttribute="top" secondItem="vIc-bV-wXi" secondAttribute="top" constant="67" id="leP-t1-6m4"/>
+                            <constraint firstItem="G7P-z8-mDE" firstAttribute="leading" secondItem="vIc-bV-wXi" secondAttribute="leading" id="o9Q-la-wk4"/>
+                            <constraint firstItem="G7P-z8-mDE" firstAttribute="bottom" secondItem="1FD-Uw-wx8" secondAttribute="top" id="rnV-5A-sLM"/>
+                            <constraint firstAttribute="trailing" secondItem="G7P-z8-mDE" secondAttribute="trailing" id="wQb-8D-e0C"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="500"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mJW-CB-21q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="214" y="1346"/>
+        </scene>
+        <!--Scen2Popover2-->
+        <scene sceneID="EDp-El-Y7j">
+            <objects>
+                <viewController title="Scen2Popover2" id="c4y-lf-1cy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bJs-Bb-R4J"/>
+                        <viewControllerLayoutGuide type="bottom" id="IEW-1x-Gfp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oKW-tu-wqU">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Future Goals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGL-uI-lsJ">
+                                <rect key="frame" x="175" y="28" width="194" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="DeI-da-qJi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9Dl-PE-fXp">
+                                <rect key="frame" x="20" y="101" width="460" height="334"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.9806920717453379" green="1" blue="0.99369756292466116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IEW-1x-Gfp" firstAttribute="top" secondItem="9Dl-PE-fXp" secondAttribute="bottom" constant="65" id="7o2-EY-O7E"/>
+                            <constraint firstItem="9Dl-PE-fXp" firstAttribute="trailing" secondItem="oKW-tu-wqU" secondAttribute="trailingMargin" id="Gtj-M8-AFp"/>
+                            <constraint firstItem="9Dl-PE-fXp" firstAttribute="leading" secondItem="oKW-tu-wqU" secondAttribute="leadingMargin" id="Ygk-xf-Il8"/>
+                            <constraint firstItem="IEW-1x-Gfp" firstAttribute="top" secondItem="MGL-uI-lsJ" secondAttribute="bottom" constant="451" id="gBR-HO-cbT"/>
+                            <constraint firstItem="9Dl-PE-fXp" firstAttribute="top" secondItem="MGL-uI-lsJ" secondAttribute="bottom" constant="52" id="hYi-rz-vqU"/>
+                            <constraint firstItem="MGL-uI-lsJ" firstAttribute="leading" secondItem="oKW-tu-wqU" secondAttribute="leading" constant="175" id="qKZ-tG-whx"/>
+                            <constraint firstItem="MGL-uI-lsJ" firstAttribute="top" secondItem="bJs-Bb-R4J" secondAttribute="bottom" constant="8" symbolic="YES" id="zBz-3l-6Ts"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="500"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CRc-9w-ZQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869" y="1346"/>
+        </scene>
+        <!--Scene4Popover1-->
+        <scene sceneID="Tvz-Ie-Oss">
+            <objects>
+                <viewController title="Scene4Popover1" id="cjz-Bl-ZB9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TQq-6g-ENI"/>
+                        <viewControllerLayoutGuide type="bottom" id="UsE-9m-zek"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kk9-rS-5dS">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="350"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wK-iL-Glr">
+                                <rect key="frame" x="109" y="20" width="335" height="21"/>
+                                <string key="text">GEORGINA HURCOMBE
+</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRODUCER/MANAGING DIRECTOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wL-36-Es8">
+                                <rect key="frame" x="96" y="57" width="308" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="pjO-L1-eQJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.98968733775853457" blue="0.99485878822120866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="715-Xd-jjK">
+                                <rect key="frame" x="20" y="86" width="468" height="198"/>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.68627450980392157" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Georgina is the company’s founder and Managing Director, and has grown her production company Lovelove Films from strength to strength, driving the business to new successes. As a producer she has worked on a range of award winning documentaries, shorts films, Animations, music videos, TV Adverts, promotional/corporate films, web videos, presenter led programs and more.
+</string>
+                                <color key="textColor" red="1" green="0.98968733775853457" blue="0.99485878822120866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24313725490196078" green="0.68627450980392157" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UsE-9m-zek" firstAttribute="top" secondItem="715-Xd-jjK" secondAttribute="bottom" constant="66" id="4EN-eh-NzQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="715-Xd-jjK" secondAttribute="trailing" constant="-8" id="50E-9c-VJ1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6wK-iL-Glr" secondAttribute="trailing" constant="36" id="9wa-4C-9c2"/>
+                            <constraint firstItem="6wK-iL-Glr" firstAttribute="top" secondItem="TQq-6g-ENI" secondAttribute="bottom" id="A9W-pR-zeX"/>
+                            <constraint firstItem="715-Xd-jjK" firstAttribute="leading" secondItem="kk9-rS-5dS" secondAttribute="leadingMargin" id="cUK-EG-AfP"/>
+                            <constraint firstItem="7wL-36-Es8" firstAttribute="top" secondItem="kk9-rS-5dS" secondAttribute="top" constant="57" id="dXK-hk-Scm"/>
+                            <constraint firstItem="715-Xd-jjK" firstAttribute="top" secondItem="7wL-36-Es8" secondAttribute="bottom" constant="8" symbolic="YES" id="fHn-mc-xds"/>
+                            <constraint firstItem="7wL-36-Es8" firstAttribute="leading" secondItem="kk9-rS-5dS" secondAttribute="leadingMargin" constant="76" id="rds-jV-bdd"/>
+                            <constraint firstItem="7wL-36-Es8" firstAttribute="top" secondItem="6wK-iL-Glr" secondAttribute="bottom" constant="16" id="wR4-23-y2t"/>
+                            <constraint firstItem="7wL-36-Es8" firstAttribute="centerX" secondItem="kk9-rS-5dS" secondAttribute="centerX" id="wln-zD-Bmf"/>
+                            <constraint firstItem="6wK-iL-Glr" firstAttribute="leading" secondItem="kk9-rS-5dS" secondAttribute="leadingMargin" constant="89" id="xcY-FL-vXt"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="350"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="350"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shk-D3-gYD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1431" y="1346"/>
+        </scene>
+        <!--Scene4Popover3-->
+        <scene sceneID="6Cd-QI-GbP">
+            <objects>
+                <viewController title="Scene4Popover3" id="QhL-rW-JEG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C9b-ti-AQU"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Dv-1R-FVS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LM8-Nt-A5l">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="350"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqd-mH-jx5">
+                                <rect key="frame" x="119" y="20" width="318" height="21"/>
+                                <string key="text">MAXIM SOROKOPUD
+</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCRIPTWRITER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jb-kv-mpg">
+                                <rect key="frame" x="175" y="49" width="150" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="R4Y-Z7-es5"/>
+                                    <constraint firstAttribute="height" constant="21" id="e6W-Mc-KQy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.98480764937839049" green="0.99603788314438657" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0lN-QX-QCW">
+                                <rect key="frame" x="20" y="78" width="460" height="166"/>
+                                <color key="backgroundColor" red="0.24313725490196078" green="0.68627450980392157" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="LyF-g2-ua5"/>
+                                </constraints>
+                                <string key="text">Maxim is a huge asset and is dedicated to assisting in many areas of the company, most notably in the form of writing, including treatments, concepts, blog posts and articles for a wide range of media. He also acts as an account manager and marketing coordinator. He has organised dozens of productions and has promoted the company in a unique way.
+</string>
+                                <color key="textColor" red="0.98480764937839049" green="0.99603788314438657" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24705882352941178" green="0.69019607843137254" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eqd-mH-jx5" firstAttribute="top" secondItem="C9b-ti-AQU" secondAttribute="bottom" id="6a8-le-oK0"/>
+                            <constraint firstItem="0lN-QX-QCW" firstAttribute="centerX" secondItem="7Jb-kv-mpg" secondAttribute="centerX" id="Dgg-mv-wDH"/>
+                            <constraint firstItem="0lN-QX-QCW" firstAttribute="leading" secondItem="LM8-Nt-A5l" secondAttribute="leadingMargin" id="YXf-xh-KCO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eqd-mH-jx5" secondAttribute="trailing" constant="43" id="Ysf-6l-Mx7"/>
+                            <constraint firstItem="eqd-mH-jx5" firstAttribute="leading" secondItem="LM8-Nt-A5l" secondAttribute="leadingMargin" constant="99" id="Zhc-7O-wwN"/>
+                            <constraint firstItem="0lN-QX-QCW" firstAttribute="top" secondItem="7Jb-kv-mpg" secondAttribute="bottom" constant="8" symbolic="YES" id="dUS-U0-quC"/>
+                            <constraint firstItem="0lN-QX-QCW" firstAttribute="trailing" secondItem="LM8-Nt-A5l" secondAttribute="trailingMargin" id="oZM-DB-Kaw"/>
+                            <constraint firstItem="7Jb-kv-mpg" firstAttribute="top" secondItem="eqd-mH-jx5" secondAttribute="bottom" constant="8" symbolic="YES" id="w5W-QH-mi2"/>
+                            <constraint firstItem="4Dv-1R-FVS" firstAttribute="top" secondItem="0lN-QX-QCW" secondAttribute="bottom" constant="106" id="x1h-Ar-XWp"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="500" height="400"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="500" height="350"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b7K-DS-b1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1984" y="1346"/>
+        </scene>
+        <!--Scene2Popover3-->
+        <scene sceneID="v9F-6e-dUQ">
+            <objects>
+                <viewController title="Scene2Popover3" id="NUK-H3-E2X" customClass="Scene1Popoverfile" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q8A-Ud-mnN"/>
+                        <viewControllerLayoutGuide type="bottom" id="HB7-CQ-mtO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j66-9p-Ll1">
+                        <rect key="frame" x="0.0" y="0.0" width="700" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qij-qs-jra">
+                                <rect key="frame" x="0.0" y="0.0" width="700" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="700" height="500"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="700" height="500"/>
+                    <connections>
+                        <outlet property="videoView1" destination="Qij-qs-jra" id="GAT-bh-qzo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hZp-0v-MVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="540" y="1912"/>
+        </scene>
+        <!--Scene 7-->
+        <scene sceneID="lU4-Zf-yzs">
+            <objects>
+                <viewController id="FOp-IM-3Jb" customClass="Scene7" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eSG-8m-EGA"/>
+                        <viewControllerLayoutGuide type="bottom" id="liX-yd-W0q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4N4-SN-qFK">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="endscreenii-1" translatesAutoresizingMaskIntoConstraints="NO" id="WlW-Wa-NYA">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RK-jY-9MC">
+                                <rect key="frame" x="539" y="534" width="425" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="8Hb-uW-8qq"/>
+                                    <constraint firstAttribute="width" constant="425" id="WJ5-4u-HfH"/>
+                                </constraints>
+                                <state key="normal" image="websiteLink"/>
+                                <connections>
+                                    <action selector="WebLink:" destination="FOp-IM-3Jb" eventType="touchUpInside" id="UdJ-I1-6aT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1RK-jY-9MC" firstAttribute="leading" secondItem="WlW-Wa-NYA" secondAttribute="trailing" constant="-485" id="9jB-It-t6c"/>
+                            <constraint firstItem="liX-yd-W0q" firstAttribute="top" secondItem="WlW-Wa-NYA" secondAttribute="bottom" id="BfU-Ak-H6u"/>
+                            <constraint firstItem="WlW-Wa-NYA" firstAttribute="top" secondItem="4N4-SN-qFK" secondAttribute="top" id="Phx-K1-AxG"/>
+                            <constraint firstItem="liX-yd-W0q" firstAttribute="top" secondItem="1RK-jY-9MC" secondAttribute="bottom" constant="78" id="WbW-OC-9gX"/>
+                            <constraint firstAttribute="trailing" secondItem="WlW-Wa-NYA" secondAttribute="trailing" id="jcs-AY-pnK"/>
+                            <constraint firstItem="WlW-Wa-NYA" firstAttribute="leading" secondItem="4N4-SN-qFK" secondAttribute="leading" id="oyn-GO-EKZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene 7" image="@" selectedImage="@" id="kma-vi-Plq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bP9-Zw-W45" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-632" y="869"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="1SP-wN-hFZ"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="kRO-rT-LZD"/>
+                        <segue destination="5px-z3-6qe" kind="relationship" relationship="viewControllers" id="sGj-gm-L9v"/>
+                        <segue destination="zcg-j0-9Rl" kind="relationship" relationship="viewControllers" id="6tw-ux-6sO"/>
+                        <segue destination="JKi-mR-jIE" kind="relationship" relationship="viewControllers" id="PWg-YG-20I"/>
+                        <segue destination="Tv3-aB-wdA" kind="relationship" relationship="viewControllers" id="0zB-CX-KkQ"/>
+                        <segue destination="FOp-IM-3Jb" kind="relationship" relationship="viewControllers" id="PdC-Mq-57F"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-632" y="-110"/>
+        </scene>
+        <!--Scene 4-->
+        <scene sceneID="mtx-Fp-1hi">
+            <objects>
+                <viewController id="zcg-j0-9Rl" customClass="Scene4" customModule="LoveLoveFilms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rTU-VH-Fil"/>
+                        <viewControllerLayoutGuide type="bottom" id="NDF-Eb-KTQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H5P-H6-xo6">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="scene 3-1" translatesAutoresizingMaskIntoConstraints="NO" id="HXD-EX-vDi">
+                                <rect key="frame" x="0.0" y="20" width="1024" height="699"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEW-EL-slw">
+                                <rect key="frame" x="791" y="291" width="162" height="413"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="162" id="u3Q-BI-gsy"/>
+                                </constraints>
+                                <state key="normal" image="max"/>
+                                <connections>
+                                    <segue destination="QhL-rW-JEG" kind="popoverPresentation" popoverAnchorView="uEW-EL-slw" id="VEa-F1-dHG">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0L4-uv-PV6">
+                                <rect key="frame" x="392" y="291" width="175" height="413"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="xzd-0e-Rad"/>
+                                </constraints>
+                                <state key="normal" image="georgina button"/>
+                                <connections>
+                                    <segue destination="cjz-Bl-ZB9" kind="popoverPresentation" popoverAnchorView="0L4-uv-PV6" id="ZuU-hO-rJm">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="teambubble" translatesAutoresizingMaskIntoConstraints="NO" id="ssj-Ar-o67">
+                                <rect key="frame" x="160" y="431" width="310" height="226"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="226" id="U7g-WW-V1W"/>
+                                    <constraint firstAttribute="width" constant="310" id="eyd-vO-j4H"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0L4-uv-PV6" firstAttribute="leading" secondItem="H5P-H6-xo6" secondAttribute="leading" constant="392" id="060-lt-kTf"/>
+                            <constraint firstItem="HXD-EX-vDi" firstAttribute="top" secondItem="rTU-VH-Fil" secondAttribute="bottom" id="Exc-qo-5jM"/>
+                            <constraint firstItem="HXD-EX-vDi" firstAttribute="leading" secondItem="H5P-H6-xo6" secondAttribute="leading" id="ICf-H7-l5G"/>
+                            <constraint firstItem="NDF-Eb-KTQ" firstAttribute="top" secondItem="ssj-Ar-o67" secondAttribute="bottom" constant="62" id="OVS-QE-h93"/>
+                            <constraint firstItem="0L4-uv-PV6" firstAttribute="top" secondItem="rTU-VH-Fil" secondAttribute="bottom" constant="271" id="XU8-Pc-kZt"/>
+                            <constraint firstItem="HXD-EX-vDi" firstAttribute="leading" secondItem="ssj-Ar-o67" secondAttribute="trailing" constant="-470" id="Xy2-nI-Ou4"/>
+                            <constraint firstItem="NDF-Eb-KTQ" firstAttribute="top" secondItem="HXD-EX-vDi" secondAttribute="bottom" id="bSc-hT-aWt"/>
+                            <constraint firstItem="NDF-Eb-KTQ" firstAttribute="top" secondItem="0L4-uv-PV6" secondAttribute="bottom" constant="15" id="hgp-ua-TY4"/>
+                            <constraint firstAttribute="trailing" secondItem="HXD-EX-vDi" secondAttribute="trailing" id="p7h-Om-OXl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uEW-EL-slw" secondAttribute="trailing" constant="51" id="qqH-KZ-YTg"/>
+                            <constraint firstItem="0L4-uv-PV6" firstAttribute="bottom" secondItem="uEW-EL-slw" secondAttribute="bottom" id="wFJ-kQ-3cV"/>
+                            <constraint firstItem="0L4-uv-PV6" firstAttribute="top" secondItem="uEW-EL-slw" secondAttribute="top" id="wsB-mV-mI9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene 4" image="page-01-2" id="b1q-94-aZC"/>
+                    <connections>
+                        <outlet property="testImage" destination="ssj-Ar-o67" id="D0n-07-fWD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Luv-Ai-uKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1630" y="520"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="@" width="30" height="30"/>
+        <image name="Computer" width="281" height="150"/>
+        <image name="Cups" width="782" height="106"/>
+        <image name="Josh" width="205" height="601"/>
+        <image name="NextMonth" width="787" height="584"/>
+        <image name="Sunny" width="312" height="567"/>
+        <image name="ThisMonth" width="787" height="584"/>
+        <image name="Tom" width="256" height="542"/>
+        <image name="TvScreen" width="511" height="525"/>
+        <image name="TvWall" width="606" height="378"/>
+        <image name="awards.png" width="510" height="166"/>
+        <image name="blackboardsbubble" width="709" height="591"/>
+        <image name="book" width="30" height="30"/>
+        <image name="clients" width="490" height="379"/>
+        <image name="clipboard" width="30" height="30"/>
+        <image name="door-1" width="2047" height="1536"/>
+        <image name="endscreenii-1" width="2052" height="1536"/>
+        <image name="faith" width="263" height="621"/>
+        <image name="georgina button" width="315" height="778"/>
+        <image name="hat" width="30" height="30"/>
+        <image name="max" width="283" height="721"/>
+        <image name="mug" width="30" height="30"/>
+        <image name="page-01-2" width="30" height="30"/>
+        <image name="placementsbubble" width="709" height="591"/>
+        <image name="play" width="30" height="30"/>
+        <image name="scene 1-2" width="8521" height="6400"/>
+        <image name="scene 3-1" width="8528" height="6400"/>
+        <image name="scene 4-1" width="8469" height="6400"/>
+        <image name="scene2ii-01.png" width="2054" height="1536"/>
+        <image name="scene5i-1" width="2027" height="1536"/>
+        <image name="sofa" width="1152" height="490"/>
+        <image name="teabubble" width="709" height="591"/>
+        <image name="team2bubble" width="709" height="591"/>
+        <image name="teambubble" width="709" height="591"/>
+        <image name="websiteLink" width="300" height="84"/>
+    </resources>
+</document>

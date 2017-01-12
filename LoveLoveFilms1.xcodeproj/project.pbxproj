@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186FB4691CEC724900E047C3 /* scene2ii-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB4681CEC724900E047C3 /* scene2ii-01.png */; };
+		186FB46B1CEC72C000E047C3 /* awards-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB46A1CEC72C000E047C3 /* awards-01.png */; };
+		186FB46D1CEC77E200E047C3 /* awards.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB46C1CEC77E200E047C3 /* awards.png */; };
 		1A3BEA061CE0CE5400230445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA051CE0CE5400230445 /* AppDelegate.swift */; };
 		1A3BEA081CE0CE5400230445 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA071CE0CE5400230445 /* FirstViewController.swift */; };
 		1A3BEA0A1CE0CE5400230445 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA091CE0CE5400230445 /* SecondViewController.swift */; };
-		1A3BEA0D1CE0CE5400230445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3BEA0B1CE0CE5400230445 /* Main.storyboard */; };
 		1A3BEA0F1CE0CE5400230445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3BEA0E1CE0CE5400230445 /* Assets.xcassets */; };
 		1A3BEA121CE0CE5400230445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3BEA101CE0CE5400230445 /* LaunchScreen.storyboard */; };
 		1A3BEA1D1CE0CE5400230445 /* LoveLoveFilms1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA1C1CE0CE5400230445 /* LoveLoveFilms1Tests.swift */; };
 		1A3BEA281CE0CE5400230445 /* LoveLoveFilms1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA271CE0CE5400230445 /* LoveLoveFilms1UITests.swift */; };
+		1A3BEA361CE0D4D000230445 /* Scene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA351CE0D4D000230445 /* Scene3.swift */; };
+		1A3BEA381CE0D4DB00230445 /* Scene4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA371CE0D4DB00230445 /* Scene4.swift */; };
+		1A3BEA3A1CE0D4FC00230445 /* Scene5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA391CE0D4FC00230445 /* Scene5.swift */; };
+		1A3BEA3C1CE0D50D00230445 /* Scene6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA3B1CE0D50D00230445 /* Scene6.swift */; };
+		1A3BEA3E1CE0D51800230445 /* Scene7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BEA3D1CE0D51800230445 /* Scene7.swift */; };
+		1A3E6FAF1CF1E11D00C7E341 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E6FAE1CF1E11D00C7E341 /* UIImageView+Extension.swift */; };
+		1A3E6FB11CF4747100C7E341 /* Scene3Popoverfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E6FB01CF4747100C7E341 /* Scene3Popoverfile.swift */; };
+		1A3E6FB31CF47E6400C7E341 /* fast-snowy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E6FB21CF47E6400C7E341 /* fast-snowy.gif */; };
+		1A3E6FB51CF4856700C7E341 /* chef-dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E6FB41CF4856700C7E341 /* chef-dog.gif */; };
+		1A3E6FB71CF4859B00C7E341 /* grad-dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E6FB61CF4859B00C7E341 /* grad-dog.gif */; };
+		1A3E6FB91CF485B100C7E341 /* director-dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E6FB81CF485B100C7E341 /* director-dog.gif */; };
+		1A3E6FBB1CF485C600C7E341 /* maracas-dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E6FBA1CF485C600C7E341 /* maracas-dog.gif */; };
+		1A3E6FBD1CF485DD00C7E341 /* party-dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E6FBC1CF485DD00C7E341 /* party-dog.gif */; };
+		1A46B3A51CEC5BC500FCA33C /* scene-1-snowy--2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A46B3A41CEC5BC500FCA33C /* scene-1-snowy--2.gif */; };
+		1A46B3A71CEC5BE500FCA33C /* scene-2-snowy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A46B3A61CEC5BE500FCA33C /* scene-2-snowy.gif */; };
+		1A46B3A91CEC5C0600FCA33C /* scene-3-snowy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A46B3A81CEC5C0600FCA33C /* scene-3-snowy.gif */; };
+		1A46B3AB1CEC5C3600FCA33C /* scene-4-snowy-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A46B3AA1CEC5C3600FCA33C /* scene-4-snowy-2.gif */; };
+		1A46B3AD1CEC5CDB00FCA33C /* scene-5-snowy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A46B3AC1CEC5CDB00FCA33C /* scene-5-snowy.gif */; };
+		1A46B3B31CEC5E7400FCA33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A46B3B21CEC5E7400FCA33C /* Main.storyboard */; };
+		1A46B3B51CEC5EF200FCA33C /* gifFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A46B3B41CEC5EF200FCA33C /* gifFramework.swift */; };
+		1A768A941CEB2F780070EBD8 /* Scene1Popoverfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A768A931CEB2F780070EBD8 /* Scene1Popoverfile.swift */; };
+		1A768A961CEB30000070EBD8 /* Scene5Popoverfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A768A951CEB30000070EBD8 /* Scene5Popoverfile.swift */; };
+		1AEF31EA1CE5E58F00E6DE28 /* Scene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF31E91CE5E58F00E6DE28 /* Scene1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +60,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186FB4681CEC724900E047C3 /* scene2ii-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scene2ii-01.png"; path = "../scene2ii-01.png"; sourceTree = "<group>"; };
+		186FB46A1CEC72C000E047C3 /* awards-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "awards-01.png"; sourceTree = "<group>"; };
+		186FB46C1CEC77E200E047C3 /* awards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awards.png; sourceTree = "<group>"; };
 		1A3BEA021CE0CE5400230445 /* LoveLoveFilms1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveLoveFilms1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3BEA051CE0CE5400230445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A3BEA071CE0CE5400230445 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1A3BEA091CE0CE5400230445 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		1A3BEA0C1CE0CE5400230445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A3BEA0E1CE0CE5400230445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A3BEA111CE0CE5400230445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A3BEA131CE0CE5400230445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +76,29 @@
 		1A3BEA231CE0CE5400230445 /* LoveLoveFilms1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveLoveFilms1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3BEA271CE0CE5400230445 /* LoveLoveFilms1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveLoveFilms1UITests.swift; sourceTree = "<group>"; };
 		1A3BEA291CE0CE5400230445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3BEA351CE0D4D000230445 /* Scene3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene3.swift; sourceTree = "<group>"; };
+		1A3BEA371CE0D4DB00230445 /* Scene4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene4.swift; sourceTree = "<group>"; };
+		1A3BEA391CE0D4FC00230445 /* Scene5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene5.swift; sourceTree = "<group>"; };
+		1A3BEA3B1CE0D50D00230445 /* Scene6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene6.swift; sourceTree = "<group>"; };
+		1A3BEA3D1CE0D51800230445 /* Scene7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene7.swift; sourceTree = "<group>"; };
+		1A3E6FAE1CF1E11D00C7E341 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		1A3E6FB01CF4747100C7E341 /* Scene3Popoverfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene3Popoverfile.swift; sourceTree = "<group>"; };
+		1A3E6FB21CF47E6400C7E341 /* fast-snowy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "fast-snowy.gif"; sourceTree = "<group>"; };
+		1A3E6FB41CF4856700C7E341 /* chef-dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "chef-dog.gif"; sourceTree = "<group>"; };
+		1A3E6FB61CF4859B00C7E341 /* grad-dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "grad-dog.gif"; sourceTree = "<group>"; };
+		1A3E6FB81CF485B100C7E341 /* director-dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "director-dog.gif"; sourceTree = "<group>"; };
+		1A3E6FBA1CF485C600C7E341 /* maracas-dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "maracas-dog.gif"; sourceTree = "<group>"; };
+		1A3E6FBC1CF485DD00C7E341 /* party-dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "party-dog.gif"; sourceTree = "<group>"; };
+		1A46B3A41CEC5BC500FCA33C /* scene-1-snowy--2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-1-snowy--2.gif"; sourceTree = "<group>"; };
+		1A46B3A61CEC5BE500FCA33C /* scene-2-snowy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-2-snowy.gif"; sourceTree = "<group>"; };
+		1A46B3A81CEC5C0600FCA33C /* scene-3-snowy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-3-snowy.gif"; sourceTree = "<group>"; };
+		1A46B3AA1CEC5C3600FCA33C /* scene-4-snowy-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-4-snowy-2.gif"; sourceTree = "<group>"; };
+		1A46B3AC1CEC5CDB00FCA33C /* scene-5-snowy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-5-snowy.gif"; sourceTree = "<group>"; };
+		1A46B3B21CEC5E7400FCA33C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1A46B3B41CEC5EF200FCA33C /* gifFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifFramework.swift; sourceTree = "<group>"; };
+		1A768A931CEB2F780070EBD8 /* Scene1Popoverfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1Popoverfile.swift; sourceTree = "<group>"; };
+		1A768A951CEB30000070EBD8 /* Scene5Popoverfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene5Popoverfile.swift; sourceTree = "<group>"; };
+		1AEF31E91CE5E58F00E6DE28 /* Scene1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +150,37 @@
 			isa = PBXGroup;
 			children = (
 				1A3BEA051CE0CE5400230445 /* AppDelegate.swift */,
+				1A46B3B41CEC5EF200FCA33C /* gifFramework.swift */,
 				1A3BEA071CE0CE5400230445 /* FirstViewController.swift */,
+				1AEF31E91CE5E58F00E6DE28 /* Scene1.swift */,
+				1A768A931CEB2F780070EBD8 /* Scene1Popoverfile.swift */,
 				1A3BEA091CE0CE5400230445 /* SecondViewController.swift */,
-				1A3BEA0B1CE0CE5400230445 /* Main.storyboard */,
-				1A3BEA0E1CE0CE5400230445 /* Assets.xcassets */,
+				1A3E6FAE1CF1E11D00C7E341 /* UIImageView+Extension.swift */,
+				1A3BEA351CE0D4D000230445 /* Scene3.swift */,
+				1A3E6FB01CF4747100C7E341 /* Scene3Popoverfile.swift */,
+				1A3BEA371CE0D4DB00230445 /* Scene4.swift */,
+				1A3BEA391CE0D4FC00230445 /* Scene5.swift */,
+				1A768A951CEB30000070EBD8 /* Scene5Popoverfile.swift */,
+				1A3BEA3B1CE0D50D00230445 /* Scene6.swift */,
+				1A3BEA3D1CE0D51800230445 /* Scene7.swift */,
 				1A3BEA101CE0CE5400230445 /* LaunchScreen.storyboard */,
+				1A46B3B21CEC5E7400FCA33C /* Main.storyboard */,
+				1A3BEA0E1CE0CE5400230445 /* Assets.xcassets */,
+				186FB4681CEC724900E047C3 /* scene2ii-01.png */,
 				1A3BEA131CE0CE5400230445 /* Info.plist */,
+				186FB46A1CEC72C000E047C3 /* awards-01.png */,
+				1A46B3A41CEC5BC500FCA33C /* scene-1-snowy--2.gif */,
+				1A3E6FB41CF4856700C7E341 /* chef-dog.gif */,
+				1A3E6FB61CF4859B00C7E341 /* grad-dog.gif */,
+				1A3E6FBA1CF485C600C7E341 /* maracas-dog.gif */,
+				1A3E6FB81CF485B100C7E341 /* director-dog.gif */,
+				1A3E6FBC1CF485DD00C7E341 /* party-dog.gif */,
+				1A3E6FB21CF47E6400C7E341 /* fast-snowy.gif */,
+				1A46B3A81CEC5C0600FCA33C /* scene-3-snowy.gif */,
+				1A46B3A61CEC5BE500FCA33C /* scene-2-snowy.gif */,
+				186FB46C1CEC77E200E047C3 /* awards.png */,
+				1A46B3AA1CEC5C3600FCA33C /* scene-4-snowy-2.gif */,
+				1A46B3AC1CEC5CDB00FCA33C /* scene-5-snowy.gif */,
 			);
 			path = LoveLoveFilms1;
 			sourceTree = "<group>";
@@ -197,15 +272,18 @@
 					1A3BEA011CE0CE5400230445 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 2NLA4DSF26;
+						LastSwiftMigration = 0800;
 					};
 					1A3BEA171CE0CE5400230445 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 2NLA4DSF26;
+						LastSwiftMigration = 0800;
 						TestTargetID = 1A3BEA011CE0CE5400230445;
 					};
 					1A3BEA221CE0CE5400230445 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 2NLA4DSF26;
+						LastSwiftMigration = 0800;
 						TestTargetID = 1A3BEA011CE0CE5400230445;
 					};
 				};
@@ -235,9 +313,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186FB46D1CEC77E200E047C3 /* awards.png in Resources */,
+				1A3E6FB31CF47E6400C7E341 /* fast-snowy.gif in Resources */,
+				1A3E6FBB1CF485C600C7E341 /* maracas-dog.gif in Resources */,
+				1A3E6FB91CF485B100C7E341 /* director-dog.gif in Resources */,
 				1A3BEA121CE0CE5400230445 /* LaunchScreen.storyboard in Resources */,
+				1A46B3A51CEC5BC500FCA33C /* scene-1-snowy--2.gif in Resources */,
+				186FB46B1CEC72C000E047C3 /* awards-01.png in Resources */,
+				1A3E6FB51CF4856700C7E341 /* chef-dog.gif in Resources */,
+				1A46B3AD1CEC5CDB00FCA33C /* scene-5-snowy.gif in Resources */,
+				1A46B3A71CEC5BE500FCA33C /* scene-2-snowy.gif in Resources */,
+				1A46B3A91CEC5C0600FCA33C /* scene-3-snowy.gif in Resources */,
+				1A3E6FBD1CF485DD00C7E341 /* party-dog.gif in Resources */,
+				186FB4691CEC724900E047C3 /* scene2ii-01.png in Resources */,
+				1A46B3B31CEC5E7400FCA33C /* Main.storyboard in Resources */,
+				1A46B3AB1CEC5C3600FCA33C /* scene-4-snowy-2.gif in Resources */,
 				1A3BEA0F1CE0CE5400230445 /* Assets.xcassets in Resources */,
-				1A3BEA0D1CE0CE5400230445 /* Main.storyboard in Resources */,
+				1A3E6FB71CF4859B00C7E341 /* grad-dog.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +354,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3BEA361CE0D4D000230445 /* Scene3.swift in Sources */,
 				1A3BEA0A1CE0CE5400230445 /* SecondViewController.swift in Sources */,
+				1A3E6FAF1CF1E11D00C7E341 /* UIImageView+Extension.swift in Sources */,
+				1A768A941CEB2F780070EBD8 /* Scene1Popoverfile.swift in Sources */,
+				1AEF31EA1CE5E58F00E6DE28 /* Scene1.swift in Sources */,
+				1A46B3B51CEC5EF200FCA33C /* gifFramework.swift in Sources */,
+				1A3BEA3A1CE0D4FC00230445 /* Scene5.swift in Sources */,
+				1A3BEA3C1CE0D50D00230445 /* Scene6.swift in Sources */,
+				1A3E6FB11CF4747100C7E341 /* Scene3Popoverfile.swift in Sources */,
+				1A3BEA3E1CE0D51800230445 /* Scene7.swift in Sources */,
+				1A768A961CEB30000070EBD8 /* Scene5Popoverfile.swift in Sources */,
+				1A3BEA381CE0D4DB00230445 /* Scene4.swift in Sources */,
 				1A3BEA061CE0CE5400230445 /* AppDelegate.swift in Sources */,
 				1A3BEA081CE0CE5400230445 /* FirstViewController.swift in Sources */,
 			);
@@ -300,14 +403,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1A3BEA0B1CE0CE5400230445 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A3BEA0C1CE0CE5400230445 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A3BEA101CE0CE5400230445 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,9 +504,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoveLoveFilms1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChloeHutchings.LoveLoveFilms1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -420,9 +517,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoveLoveFilms1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChloeHutchings.LoveLoveFilms1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +533,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChloeHutchings.LoveLoveFilms1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveLoveFilms1.app/LoveLoveFilms1";
 			};
 			name = Debug;
@@ -446,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChloeHutchings.LoveLoveFilms1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveLoveFilms1.app/LoveLoveFilms1";
 			};
 			name = Release;
@@ -457,6 +558,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChloeHutchings.LoveLoveFilms1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LoveLoveFilms1;
 			};
 			name = Debug;
@@ -468,6 +570,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChloeHutchings.LoveLoveFilms1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LoveLoveFilms1;
 			};
 			name = Release;
@@ -491,6 +594,7 @@
 				1A3BEA2E1CE0CE5400230445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A3BEA2F1CE0CE5400230445 /* Build configuration list for PBXNativeTarget "LoveLoveFilms1Tests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +603,7 @@
 				1A3BEA311CE0CE5400230445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A3BEA321CE0CE5400230445 /* Build configuration list for PBXNativeTarget "LoveLoveFilms1UITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +612,7 @@
 				1A3BEA341CE0CE5400230445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
